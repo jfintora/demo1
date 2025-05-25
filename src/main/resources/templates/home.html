@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+    <style  th:inline="css">
+        body {
+            background-color: [(${bgColor})]
+        }
+    </style>
+</head>
+<body>
+<h1 th:text="${msg}">MSG</h1>
+<h2 th:text="${time}">Time</h2>
+</body>
+</html>
